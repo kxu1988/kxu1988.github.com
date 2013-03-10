@@ -13,7 +13,8 @@ Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ### What is Jekyll?
 
-Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
+Jekyll is a parsing engine bundled as a ruby gem used to build static websit# Header Text #
+es from
 dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
 
 ### Examples
@@ -23,7 +24,7 @@ This website is created with Jekyll. [Other Jekyll websites](https://github.com/
 
 
 ### What does Jekyll Do?
-
+packa
 Jekyll is a ruby gem you install on your local system.
 Once there you can call `jekyll --server` on a directory and provided that directory
 is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, 
