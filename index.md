@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 许可不可以!
+title: 许可不可以
 tagline: 何时想念，何时再见
 ---
 {% include JB/setup %}
