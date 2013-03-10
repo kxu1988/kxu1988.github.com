@@ -2,8 +2,8 @@
 layout: post
 title: "Ad Hoc网络基本概念"
 description: ""
-category: 
-tags: []
+category: Ad hoc
+tags: [Ad hoc]
 ---
 {% include JB/setup %}
 
