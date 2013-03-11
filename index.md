@@ -13,13 +13,15 @@ tagline: 何时想念，何时再见
 
 ###关于作者 / About Me
 
->有多难就有多勇敢
+>>>有多难就有多勇敢
 
 许可，男，现居北京。
 
->> 关注我 / Follow Me
+> 关注我 / Follow Me
 
-[新浪微博](http://weibo.com/kxu14)
+* [新浪微博](http://weibo.com/kxu14)
+* [Facebook]()
+* [LinkedIn]()
 
 ------
 
