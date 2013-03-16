@@ -22,19 +22,6 @@ tagline: 何时想念，何时再见
 
 --------------
 
-> 关注我 / Follow Me
-
-* [新浪微博](http://weibo.com/kxu14)
-* [Facebook]() | [LinkedIn]() | [Twitter]()
-* [GitHub](https://github.com/kxu1988)
-
->联系我 / Contact Me
-
-* Email: <kxu@pku.edu.cn>
-* Gtalk: <kxu1988@gmail.com>
-
-------
-
 ###文章列表 / Post List
 
 <ul class="posts">
