@@ -22,7 +22,7 @@ tagline: 何时想念，何时再见
 > 关注我 / Follow Me
 
 * [新浪微博](http://weibo.com/kxu14)
-* [Facebook]() [LinkedIn]()
+* [Facebook]() | [LinkedIn]() | [Twitter]()
 * [GitHub](https://github.com/kxu1988)
 
 ------
