@@ -19,8 +19,8 @@ tagline: 何时想念，何时再见
 
 >联系我 / Contact Me
 
-Mail: <kxu@pku.edu.cn>
-Gtalk: <kxu1988@gmail.com>
+* Mail: <kxu@pku.edu.cn>
+* Gtalk: <kxu1988@gmail.com>
 
 > 关注我 / Follow Me
 
