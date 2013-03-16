@@ -42,28 +42,3 @@ tagline: 何时想念，何时再见
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-<div class="well sidebar pull-right">
-    <blockquote>
-        <p>关注我 / Follow Me</p>
-    </blockquote>
-
-    <ul>
-        <li><a href='http://weibo.com/kxu14'>新浪微博</a></li>
-        <li><a href=''>Facebook</a> | <a href=''>LinkedIn</a> | <a href=''>Twitter</a></li>
-        <li><a href='https://github.com/kxu1988'>GitHub</a></li>
-    </ul>
-
-    <blockquote>
-        <p>联系我 / Contact Me</p>
-    </blockquote>
-
-    <ul>
-    <li>Email: <a href='mailto:kxu@pku.edu.cn'></a></li>
-
-    <li>Gtalk: <a href='mailto:kxu1988@gmail.com'></a></li>
-    </ul>
-</div> 
-
-
-
