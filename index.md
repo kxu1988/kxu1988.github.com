@@ -32,7 +32,7 @@ tagline: 何时想念，何时再见
 
 * Email: <kxu@pku.edu.cn>
 * Gtalk: <kxu1988@gmail.com>
-* 
+
 ------
 
 ###文章列表 / Post List
