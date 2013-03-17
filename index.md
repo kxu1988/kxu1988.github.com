@@ -5,8 +5,6 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
 ---
 {% include JB/setup %} 
 
-###文章列表 / Post List
-
 <ul class="posts">
   {% for post in site.posts %}
     {% if forloop.first %}
@@ -15,6 +13,7 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
         {{ post.date | date_to_string}}
         <hr />
     {% endif %}
+    <h3>文章列表 / Post List</h3>
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
