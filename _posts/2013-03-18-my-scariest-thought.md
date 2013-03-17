@@ -7,8 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-    “Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.” 
-    *Norman Cousins*
+    “Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.”
+    ~Norman Cousins
 
 My scariest thought is loss and loss is inevitable. 
 We will all lose relationships, situations, and states of being that we enjoy and love. 
