@@ -8,8 +8,8 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
 <ul class="posts">
   {% for post in site.posts %}
     {% if forloop.first %}
-        <h3>{{ post.title }}</h3>
-        {{ post.content | 100}}
+        <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+        {{ post.content}}
         <br>
         {{ post.date | date_to_string}}
         <hr />
