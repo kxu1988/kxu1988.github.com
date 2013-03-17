@@ -9,10 +9,12 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
 
 <ul class="posts">
   {% for post in site.posts %}
-    <h3>{{ forloop.first.title }}</h3>
-    {{ forloop.first.content | 100}}
-    {{ forloop.first.date | date_to_string}}
-    <hr />
+    {% if forloop.first %}
+        <h3>{{ post.title }}</h3>
+        {{ post.content | 100}}
+        {{ post.date | date_to_string}}
+        <hr />
+    {% endif %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
