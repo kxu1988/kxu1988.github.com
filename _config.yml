@@ -126,7 +126,3 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
  
-# Only First P Plugin
-only_first_p:
-    show_read_more_link: true
-    read_more_link_text: 'Read more'
