@@ -9,7 +9,7 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
   {% for post in site.posts %}
     {% if forloop.first %}
         <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
-        { post | only_first_p }
+        {{ post | only_first_p }}
         <br>
         {{ post.date | date_to_string}}
         <hr />
