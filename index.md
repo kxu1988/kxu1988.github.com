@@ -5,6 +5,14 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
 ---
 {% include JB/setup %} 
 
+{% if post %}
+<h3> 
+    {{ post.title}}
+</h3>
+{{ post.content | 100}}
+{{ post.date | date_to_string}}
+{% end if %}
+
 --------------
 
 ###文章列表 / Post List
