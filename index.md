@@ -11,7 +11,7 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
         <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
         {{ post.date | date_to_string}}
         <br><br>
-        {{ post | only_first_p }}
+        {{ post.content | only_first_p }}
         <hr />
         <h3>文章列表 / Post List</h3>
     {% else %}   
