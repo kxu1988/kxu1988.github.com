@@ -5,17 +5,20 @@ tagline: 生命中最大的失去不是死亡，而是人活着时候心里的�
 ---
 {% include JB/setup %} 
 
+##最近文章
+
+-----
+
+{% for category in site.categories %} 
+  <h3 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h3>
+  <ul>
+    {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
 <ul class="posts">
   {% for post in site.posts %}
-    {% if forloop.first %}
-        <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
-        {{ post.date | date_to_string}}
-        <br><br>
-        {{ post.content | only_first_p }}
-        <hr />
-        <h3>文章列表 / Post List</h3>
-    {% else %}   
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li> 
-    {% endif %}
   {% endfor %}
 </ul>

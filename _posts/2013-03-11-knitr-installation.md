@@ -2,8 +2,8 @@
 layout: post
 title: "knitr Installation"
 description: ""
-category: R 
-tags: [R, knitr]
+category: Tech 
+tags: [R]
 ---
 {% include JB/setup %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: " My Scariest Thought"
 description: ""
-category: 
+category: Life
 tags: []
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "不必要的折腾，关于jekyll-only_first_p插件"
 description: ""
-category: 
+category: Tech
 tags: []
 ---
 {% include JB/setup %}
